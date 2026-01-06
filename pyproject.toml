@@ -1,0 +1,26 @@
+[project]
+name = "lumeview"
+version = "0.1.0"
+description = "Lume - A beautiful JSON viewer CLI"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "rich>=14.2.0",
+    "textual>=7.0.0",
+    "click>=8.3.1",
+]
+
+[project.scripts]
+lume = "app.cli.main:cli"
+lumeview = "app.cli.main:cli"
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
