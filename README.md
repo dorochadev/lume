@@ -1,6 +1,6 @@
-# LumeView 🕯️
+# Lume 🕯️
 
-LumeView is a sleek, modern JSON viewer CLI built for developers who need a better way to explore API responses and local data. It transforms raw JSON into interactive, navigable TUI experiences with a premium aesthetic.
+Lume is a sleek, modern JSON viewer CLI built for developers who need a better way to explore API responses and local data. It transforms raw JSON into interactive, navigable TUI experiences with a premium aesthetic.
 
 <img src="test-data/lume_tree_demo.gif" width="100%" />
 
