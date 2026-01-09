@@ -1,4 +1,4 @@
-from app.cli.main import cli
+from lumeview.cli.main import cli
 
 def main():
     cli()

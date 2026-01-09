@@ -2,12 +2,13 @@ import click
 import asyncio
 from rich.console import Console
 from rich.status import Status
-from app.core.loader import fetch_json_from_url, load_json_from_file
-from app.tui.app import LumeApp
+from lumeview.core.loader import fetch_json_from_url, load_json_from_file
+from lumeview.tui.app import LumeApp
 
 console = Console()
 
 @click.group()
+@click.version_option(package_name='lumeview')
 def cli():
     """Lume - The beautiful JSON viewer CLI."""
     pass

@@ -4,8 +4,8 @@ from textual.widgets import Header, Footer, Tree
 from textual.containers import Horizontal, VerticalScroll
 from typing import Any
 
-from app.tui.tree_display import JsonTree, DetailsPanel
-from app.tui.box_display import BoxView
+from lumeview.tui.tree_display import JsonTree, DetailsPanel
+from lumeview.tui.box_display import BoxView
 
 class LumeApp(App):
     """The main Lume TUI Application."""
