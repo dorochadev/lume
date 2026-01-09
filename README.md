@@ -13,22 +13,20 @@ Lume is a sleek, modern JSON viewer CLI built for developers who need a better w
 
 ## Installation
 
-### Local Global Install (Recommended)
-If you want to use `lume` or `lumeview` globally in your terminal while developing, run this inside the project directory:
-
-```bash
-uv tool install .
-```
-
-This will install the package and make both the `lume` and `lumeview` commands available.
-
-### From PyPI (Coming Soon)
-Once published, you'll be able to install it using the package name `lumeview`:
+### From PyPI (Recommended)
+You can install `lumeview` directly from PyPI:
 
 ```bash
 pip install lumeview
-# or
+# or with uv (recommended)
 uv tool install lumeview
+```
+
+### Install from Source
+If you want to use the local version while developing, run this inside the project directory:
+
+```bash
+uv tool install .
 ```
 
 ## Development
